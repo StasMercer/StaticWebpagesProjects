@@ -1,0 +1,57 @@
+.main_wrapper{
+    flex-direction: column;
+    flex: 1;
+}
+
+.block_page{
+    flex-direction: row;
+}
+
+.block_logo{
+    flex: none;
+}
+
+.price_block{
+    flex: 3;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .card_flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .price_block{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .social_list{
+        flex-direction: column;
+        margin-top: 1vw;
+        padding-left: 2vw;
+        align-items: flex-start;
+    }
+
+    .card{
+        width: 60vw;
+    }
+    .card_title {
+        font-size: 3vw;
+    }
+    
+    .price_coin {
+        font-size:  3vw;
+    }
+    
+    .price_subtitle {
+        font-size: 2vw;
+    }
+    
+    .price_text {
+        font-size: 2vw;
+       
+    }
+}

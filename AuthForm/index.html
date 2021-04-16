@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<script src="jquery.js" type="text/javascript">
+	</script>
+	<script src="script.js" type="text/javascript">
+	</script>
+	<title></title>
+</head>
+
+<body>
+	<form id="forma" name="forma">
+		<div class="head">
+			<p>Создать аккаунт</p>
+		</div>
+		<div class="wrapper">
+		
+			<div class="inpt-block">
+				<i class="fa fa-user"></i> <input id="name" name="name" placeholder="Имя" type="text">
+				<div class="error-name"></div>
+			</div>
+			
+			<div class="inpt-block">
+				<i class="fa fa-phone"></i> <input id="number" name="number" placeholder="Телефон" type="text"><br>
+				<div class="error-number"></div>
+			</div>
+			
+			<div class="inpt-block">
+				<i class="fa fa-envelope"></i> <input id="email" name="email" placeholder="Электронний почтовый адрес" type="text"><br>
+				<div class="error-email"></div>
+			</div>
+			
+			<div class="inpt-block">
+				<i class="fa fa-lock"></i> <input id="password" name="password" placeholder="Пароль" type="password"><br>
+				<div class="error-password"></div>
+			</div>
+			
+			<div class="rules">
+				<input type="checkbox"> <span>Я соглашаюсь с <a href="#">условиями</a> и <a href="#">правилами конфиденциальности</a></span>
+			</div>
+			
+			<div class="btn">
+				<input type="submit" value="Зарегистрироваться">
+			</div>
+			
+		</div>
+	</form>
+</body>
+</html>

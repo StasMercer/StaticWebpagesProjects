@@ -1,0 +1,1 @@
+[2018-07-22 17:47:05] layer "+ 380 95 341 74 22 + 380 98 212 12 32": Expected Either a default asset specification or a layer asset specification but "+" found.

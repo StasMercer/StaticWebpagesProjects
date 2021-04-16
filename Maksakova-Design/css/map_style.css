@@ -1,0 +1,29 @@
+.main_wrapper{
+    flex-direction: column;
+    flex: 1;
+}
+
+.block_page{
+    flex-direction: row;
+}
+.map_block{
+    flex:3;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .social_list{
+        flex-direction: column;
+        margin-top: 1vw;
+        align-items: flex-start;
+        padding-left: 2vw;
+    }
+
+    .map_address {
+        font-size: 3vw;
+
+    }
+    .map_mail, .map_tel {
+        font-size: 2vw;
+    }
+}

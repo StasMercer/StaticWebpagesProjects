@@ -1,0 +1,128 @@
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block_page{
+    flex-direction: row;
+}
+
+.page_title{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    padding-left: 20vw;
+}
+
+.main_wrapper{
+    flex-direction: column;
+    flex: 1;
+}
+
+.block_logo{
+    flex:none;
+}
+
+.block_portfolio{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    padding-top: 2vw;
+}
+
+.portfolio_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    flex-wrap: wrap;
+    
+}
+
+.portfolio_item{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.portfolio_item img{
+    width: 25vw;
+    height: 25vw;
+    transition: all .5s ease-out;
+    filter: hue-rotate(0deg) brightness(50%) grayscale(0%);
+}
+
+.portfolio_item:hover{
+    cursor: pointer;
+}
+
+.portfolio_item:hover img{
+    filter: hue-rotate(0deg) brightness(100%) grayscale(0%);
+}
+.portfolio_item h3{
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 3px 3px 3px  rgba(0,0,0,0.7);
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    
+    .topnav{
+        align-items: center;
+    }
+    a.icon-topnav{
+        padding: 5vw 5vw 0 0;
+    }
+    .page_title{
+        padding-left: 6vw;
+        font-size: 5vw;
+    }
+    .block_logo{
+        flex:none;
+    }
+    .social_list{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2vw;
+        align-items: flex-start;
+        padding-left: 4vw;
+    }
+    .block_social{
+        justify-content: flex-start;
+        
+    }
+    .block_portfolio{
+        flex:5;
+        flex-direction: column;
+    }
+    .portfolio_items{
+        flex-direction: column;
+    }
+
+    .portfolio_item{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .portfolio_item img{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .portfolio_item h3{
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,506 @@
+/*Spec*/
+body{
+    padding-top: 87px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+:root{
+    --orange:#f44236;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+input:focus{
+    outline: none;
+}
+/*Spec*/
+
+/*hut--------------*/
+.header{
+    background: #f7f7f7;
+    color: #000000;
+    
+}
+
+.hut{
+    
+}
+
+.navbar{
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.19);
+    background: rgb(255, 255, 255);
+}
+
+.navbar a{
+   font-family: 'Roboto';
+    font-weight: 400;
+    
+    
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: var(--orange);
+}
+
+.search-btn{
+    color: var(--orange);
+    background: white;
+    border: 1px solid var(--orange);
+}
+
+.search-btn:hover{
+    background: var(--orange);
+    color: white;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+.controls i{
+     font-size: 20px;
+    color: black;
+    margin-left: 15px;
+}
+
+.controls i:hover{
+    transform: scale(1.1);
+    color: var(--orange);
+}
+.nav-item{
+    text-align: center;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+}
+
+/*hut------------------*/
+
+/*------slider------*/
+.slider{
+   
+    background: white;
+    
+}
+.carousel{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+.carousel-item .slider-size{
+    height: 600px;
+}
+
+.carousel-control-next{
+   display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.carousel-control-prev{
+   display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.carousel-control-next-icon ,.carousel-control-prev-icon{
+    height: 40px;
+    width: 40px;
+    
+}
+
+/*------slider------*/
+
+/*------brands------*/
+
+.brands__title{
+    margin: 40px 0;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.brands__item{
+    display: flex;
+    justify-content: center;
+}
+.brands__item img{
+    margin-bottom: 70px;
+    border-radius: 2px;
+    height: 270px;
+    width: 270px;
+    object-fit: contain;
+    display: flex;
+    padding: 30px;
+    box-shadow: 2px 5px 40px rgba(81, 81, 81, 0.33);
+    transition: all .5s ease;
+}
+
+.brands__item img:hover{
+    transform: scale(1.1);
+}
+
+/*------brands------*/
+
+
+/*------man-collection------*/
+.man-collection{
+    background: #ededed;
+}
+.man-collection__title{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 70px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.pair{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    
+}
+
+.pair .pair__item{
+    display: flex;
+    flex-direction: column;
+    width:275px;
+    height:465px;
+    background: white;
+    margin: 100px 25px;
+    box-shadow: 2px 5px 40px rgba(81, 81, 81, 0.33);
+}
+
+.pair__item__img{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.pair__item__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.pair__item__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+.pair__item__description h4{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.pair__item__description .description__text{
+    align-self: flex-start;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.pair__item__buy{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    color: #f44236;
+    width: 110px;
+    height: 45px;
+    align-self: center;
+    border-radius: 3px;
+    border: 1px solid #f44236;
+    margin-bottom: 15px;
+    transition: all .5s ease;
+}
+
+.pair__item__buy:hover{
+    
+    color: white;
+    background: #f44236;
+}
+
+
+ .fa-angle-right , .fa-angle-left{
+    font-size: 50px;
+     text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.47);
+}
+
+.carousel-indicators .active{
+    background: #f44236;
+}
+
+
+/*------man-collection------*/
+
+
+/*------woman-collection------*/
+.woman-collection{
+    background: rgba(253, 235, 241, 0.7);
+}
+/*------woman-collection------*/
+
+
+
+
+/*------about------*/
+
+.about{
+    background: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about__title{
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 80px 0;
+}
+
+.about__item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about__item h1{
+    text-transform: uppercase;
+    font-size: 63px;
+}
+
+.about__item span{
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.about__carousel{
+   
+    height: 400px;
+}
+.about__coment{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.about__coment img{
+    width: 100px;
+    height: 100px;
+}
+.about__coment p{
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about__coment h3{
+    font-size: 23px;
+    font-weight:400;
+}
+
+.about__coment span{
+    font-size: 15px;
+    font-weight: 200;
+}
+/*------about------*/
+
+
+/*------contacts------*/
+.contacts{
+    background: #e4e4e4;
+}
+.contact__item{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact__item__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #656565;
+}
+
+.contact__item__title i{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: var(--orange);
+    
+}
+
+.contact__item__title h2{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.contact__item span{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/*------contacts------*/
+
+/*------footer------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #373737;
+    color: white;
+    font-weight: 200;
+    height: 120px;
+    
+}
+
+.social .social__item{
+    font-size: 30px;
+    margin: 0;
+    padding: 0 20px;
+    transition: all .5s ease;
+}
+
+.social .social__item:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+footer .rights{
+    align-items: center;
+    display: flex;
+}
+/*------footer------*/
+
+.go_top{
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    
+}
+
+.go_top i{
+    font-size: 50px;
+    color: rgba(255, 165, 0, 0.67);
+    
+    
+}
+
+.go_top i:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .brands__item img{
+        
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+        .brands__item img{
+        
+        height: 100px;
+        width: 100px;
+    }
+    
+    .pair{
+        height: 500px;
+    }
+    
+    .pair .pair__item{
+
+        width:175px;
+        height:300px;
+    }
+    
+    .pair__item__description h4{
+        font-size: 11px;
+    }
+
+    .pair__item__description .description__text{
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    .pair__item__buy{
+        
+        height: 30px;
+        width: 50px;
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+        .brands__item img{
+        
+        height: 200px;
+        width: 200px;
+    }
+    
+    .contact__item__title h2{
+        font-size: 18px;
+    }
+    
+    .contact__item span{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+

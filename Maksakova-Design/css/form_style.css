@@ -1,0 +1,41 @@
+.main_wrapper{
+    flex-direction: column;
+    flex: 1;
+}
+
+.block_page{
+    flex-direction: row;
+}
+
+.block_logo{
+    flex: none;
+}
+
+.form_flex{
+    flex:3;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .social_list{
+        flex-direction: column;
+        margin-top: 1vw;
+        padding-left: 2vw;
+        align-items: flex-start;
+    }
+
+    input, textarea {
+        
+        font-size: 1.3vw;
+
+    }
+
+    .form_input {
+        
+        height: 7.3vh;
+    }
+    .form_link{
+        margin: 0 auto;
+    }
+}

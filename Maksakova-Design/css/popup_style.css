@@ -1,0 +1,31 @@
+.main_wrapper{
+    flex-direction: column;
+    flex: 1;
+}
+
+.block_page{
+    flex-direction: row;
+}
+
+.block_logo{
+    flex: none;
+}
+
+.popap_flex{
+    flex:3;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .social_list{
+        flex-direction: column;
+        margin-top: 1vw;
+        padding-left: 2vw;
+        align-items: flex-start;
+    }
+
+    .popap_flex{
+        padding-right: 15vw;
+    }
+    
+}

@@ -1,0 +1,158 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+input {
+    outline: 0 !important;
+}
+
+form{
+    margin: 0 auto;
+    width: 430px;
+    display: block;
+   background-color: #333333;
+    border-radius: 10px;
+    
+}
+
+.not_error{
+    border: 2px solid green;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+form >.head{
+    display: flex;
+    height: 67px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    border-bottom: 1px solid #181818;
+}
+
+
+ .wrapper{
+     
+    margin-top:20px;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #333; 
+
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder{
+    color:#858585;
+    transition: opacity 0.3s ease;
+    
+}
+
+
+.wrapper .inpt-block input{
+     
+    text-indent: 30px;
+    border: none;
+    background: linear-gradient(to bottom,rgba(183,183,183,0.9) , #E0E0E0 80%);
+    height: 30px;
+    width: 390px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+input:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.wrapper .inpt-block{
+    margin-bottom: 15px;
+}
+.rules{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+a{
+    
+    color:#8C910B;
+}
+
+a:hover{
+   color:#6d7109;
+}
+i.fa-user{
+    color: #676F00;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+i.fa-phone{
+    color: #676F00;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+i.fa-envelope{
+    color: #676F00;
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+i.fa-lock{
+    color: #676F00;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn > input{
+    font-size: 18px;
+    color: white;
+    background: 
+    linear-gradient(to top, #727604 , #959927 80%);
+    text-shadow: 1px -1px 2px black;
+    border: none;
+    height: 40px;
+    width: 205px;
+    border-radius: 20px;
+    
+    margin: 10px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.btn > input:hover{
+   cursor: pointer;
+   background: 
+    linear-gradient(to top, #545702 , #959927 80%);
+}    
+
+
+
+[class^="error-"]{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
